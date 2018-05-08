@@ -1,0 +1,5 @@
+善用debug（射线）
+摄像机跟随。
+trasfrom是引用，voctor是值类型
+tags sortinglayers layers 区别
+
