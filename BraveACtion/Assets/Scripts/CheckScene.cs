@@ -8,8 +8,7 @@ public class CheckScene : MonoBehaviour {
     private GameObject player;
     private void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        GameObject.DontDestroyOnLoad(player);
+   
     }
     // Use this for initialization
     void Start () {
@@ -20,6 +19,14 @@ public class CheckScene : MonoBehaviour {
 	void Update () {
 		
 	}
+    private void FixedUpdate()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (player)
+        {
+            GameObject.DontDestroyOnLoad(player);
+        }
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
 

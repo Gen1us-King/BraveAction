@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - arrow
   layers:
   - Default
   - TransparentFX
@@ -15,10 +16,10 @@ TagManager:
   - 
   - 
   - 
+  - player
   - 
-  - 
-  - 
-  - 
+  - ground
+  - weapon
   - 
   - 
   - 
@@ -46,4 +47,10 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3333119815
+    locked: 0
+  - name: weapon
+    uniqueID: 3092648103
+    locked: 0
+  - name: UI
+    uniqueID: 90145263
     locked: 0

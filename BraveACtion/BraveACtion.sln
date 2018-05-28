@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraveACtion", "BraveACtion.csproj", "{2116590B-E260-002F-E7B9-30743CBCC442}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraveACtion", "Assembly-CSharp.csproj", "{059932D7-6C01-AB57-35D1-A62514A29E1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2116590B-E260-002F-E7B9-30743CBCC442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2116590B-E260-002F-E7B9-30743CBCC442}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2116590B-E260-002F-E7B9-30743CBCC442}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2116590B-E260-002F-E7B9-30743CBCC442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059932D7-6C01-AB57-35D1-A62514A29E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059932D7-6C01-AB57-35D1-A62514A29E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059932D7-6C01-AB57-35D1-A62514A29E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059932D7-6C01-AB57-35D1-A62514A29E1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
