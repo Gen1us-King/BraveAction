@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - arrow
+  - health_player
+  - UI
+  - weapon
   layers:
   - Default
   - TransparentFX

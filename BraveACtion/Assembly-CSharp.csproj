@@ -59,12 +59,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CamFollow.cs" />
-    <Compile Include="Assets\Scripts\CheckScene.cs" />
-    <Compile Include="Assets\Scripts\health_control.cs" />
-    <Compile Include="Assets\Scripts\plane_events.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\wind_sound.cs" />
+    <Compile Include="Assets\Scripts\BackPack\BackPack.cs" />
+    <Compile Include="Assets\Scripts\BackPack\Weaponproperties.cs" />
+    <Compile Include="Assets\Scripts\Custom class\Consumable.cs" />
+    <Compile Include="Assets\Scripts\Custom class\Item.cs" />
+    <Compile Include="Assets\Scripts\Custom class\Weapon.cs" />
+    <Compile Include="Assets\Scripts\H\Camera_Follow_H.cs" />
+    <Compile Include="Assets\Scripts\Player\pickITem.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\UI\Canvas_UI.cs" />
+    <Compile Include="Assets\Scripts\UI\health_control.cs" />
+    <Compile Include="Assets\Scripts\V\CamFollow.cs" />
+    <Compile Include="Assets\Scripts\V\CheckScene.cs" />
+    <Compile Include="Assets\Scripts\V\plane_events.cs" />
+    <Compile Include="Assets\Scripts\V\wind_sound.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/BraveAction/BraveAction/BraveACtion/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
